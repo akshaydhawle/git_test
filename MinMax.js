@@ -1,4 +1,5 @@
-let arr = [5, 2, 7, 9, 13, 3, 8, 10, 12, 145,200,200];
+let arr = [5, 2, 7, 9, 23, 3, 8, 10, 12, 145,200,200];
+
 
 function MinMaxNumber(arr) {
 	// initialize values
@@ -7,6 +8,7 @@ function MinMaxNumber(arr) {
 	let minIndex = 0,
 		maxIndex = 0;
 
+	console.log("data");
 	for (let i = 0; i < arr.length; i++) {
 		// take min , max initiaal values before change
 		let v = arr[i],
