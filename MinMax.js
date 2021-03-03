@@ -1,5 +1,6 @@
  
-let arr = [5, 2, 7, 9, 13, 3, 8, 14];
+let arr = [5, 2, 7, 9, 13, 3, 8,10,12,15];
+
  
 function MinMaxNumber(arr) {
 	// initialize values
